@@ -1,0 +1,42 @@
+img_process:
+  img_direction: 'horizontal' #'vertical'
+  one_char_write: False #一个一个字符写入，可控制字符间距。否则直接写入，字符间距为font默认间距
+  one_char_write_min_interval: 2
+  one_char_write_max_interval: 6
+  img_crop_shift_rario: 0.8
+  use_color_lib: True
+  font_colors: [(0,0,255), (255,0,0)] #当不使用color_lib时，随机抽这里的指定颜色
+
+  blur:
+    mode: 'mean' #'Gaussian'
+    ratio: 0.3
+  rotate:
+    angle: 5  #[-angle, angle]
+    ratio: 0.2
+  add_line_ratio: 0.2
+
+
+chars_process:
+  character_process_ratio: 0.0 #字符串随机增删替换概率
+  font_size:
+    min_size: 15
+    max_size: 25
+  chars_from_txt_file: True
+
+font_folder_path: '/Users/duoduo/PycharmProjects/pingan_projects/mmocr-main/data/recog_data/fonts'
+bg_folder_path: '/Users/duoduo/PycharmProjects/pingan_projects/mmocr-main/data/recog_data/bgs'
+#alphabets_path: 'None'
+alphabets_path: '/Users/duoduo/PycharmProjects/pingan_projects/mmocr-main/data/recog_data/chinese_alphabet.txt'
+chars_from_txt_file: '/Users/duoduo/PycharmProjects/pingan_projects/mmocr-main/data/recog_data/chars_sequences.txt'
+front_unsupported_chars_json: '/Users/duoduo/PycharmProjects/pingan_projects/mmocr-main/data/recog_data/front_unsupported_chars.json'
+
+
+save_img_folder: '/Users/duoduo/PycharmProjects/pingan_projects/mmocr-main/data/recog_data/gen_imgs'
+save_num: 3
+save_img_suffix: '_1.jpg'
+img_pth_char_split_in_labels: '\t'
+
+
+
+
+

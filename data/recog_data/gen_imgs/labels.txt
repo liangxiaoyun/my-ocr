@@ -1,0 +1,2 @@
+/Users/duoduo/PycharmProjects/pingan_projects/mmocr-main/data/recog_data/gen_imgs/0000000_1.jpg\t北京市愻腤縔槃房厤南酄
+/Users/duoduo/PycharmProjects/pingan_projects/mmocr-main/data/recog_data/gen_imgs/0000002_1.jpg\tab坓dhffd﹃l鸊sf

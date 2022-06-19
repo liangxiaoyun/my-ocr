@@ -1,0 +1,2 @@
+/Users/duoduo/PycharmProjects/pingan_projects/mmocr-main/data/recog_data/123456.jpg 北京市朝阳区驼房营南路
+/Users/duoduo/PycharmProjects/pingan_projects/mmocr-main/data/recog_data/1234562.jpg 北京市朝阳区驼房营南路
